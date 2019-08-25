@@ -3,10 +3,11 @@
 
     <h1>Ensinamentos de Mokiti Okada</h1>
     <p>Um guia sobre onde encontrar os ensinamentos de Meishu-Sama</p>
+    <p>Digite abaixo um trecho do nome e veja onde foi publicado</p>
 
-    <q-input outlined v-model="filtro" label="Filtro" />
+    <q-input outlined v-model="filtro" label="Busca" />
 
-    <q-list class="q-my-md">
+    <q-list class="q-my-md" v-if="getTeachings().length">
       <q-item v-for="(teaching, index) in getTeachings()" :key="index">
         <q-item-section>
           <q-item-label>{{index+1}} - {{teaching.name}}</q-item-label>
@@ -17,8 +18,13 @@
           </q-item-label>
         </q-item-section>
       </q-item>
-
     </q-list>
+    <div class="q-my-md" v-else>Não há ensinamentos com a busca <strong>{{filtro}}</strong></div>
+
+    <div class="q-my-md text-center"><em>Esse aplicativo foi desenvolvido pela comunidade messiânica.
+      <BR/>Contribua em <a href="https://github.com/victornalves/ensinamentos-mokiti-okada" target="_blank">https://github.com/victornalves/ensinamentos-mokiti-okada</a>
+      <BR/>Ideias de melhorias ou de outros aplicativos? Envie uma mensagem para <a href="mailto:victor@w16.com.br" target="_blank">victor@w16.com.br</a>
+    </em></div>
 
   </q-page>
 </template>
@@ -32,7 +38,7 @@ export default {
   name: "PageIndex",
   data() {
     return {
-      filtro: ""
+      filtro: "",
     };
   },
   beforeMount() {

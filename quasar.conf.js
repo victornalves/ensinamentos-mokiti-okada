@@ -96,9 +96,9 @@ module.exports = function (ctx) {
       // workboxPluginMode: 'InjectManifest',
       // workboxOptions: {}, // only for NON InjectManifest
       manifest: {
-        // name: 'Ensinamentos',
-        // short_name: 'Ensinamentos',
-        // description: 'Ensinamentos de Mokiti Okada',
+        name: 'Ensinamentos',
+        short_name: 'Ensinamentos',
+        description: 'Ensinamentos de Mokiti Okada',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
