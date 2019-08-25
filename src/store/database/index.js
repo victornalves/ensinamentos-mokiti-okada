@@ -60,31 +60,31 @@ export default {
   actions: {
     loadBooks: ({ commit }) => {
       axios
-        .get(`data/books.json`)
+        .get(`statics/data/books.json`)
         .then(res => { commit('BOOOKS_FETCHED', res.data) })
         .catch(err => { throw (err) })
     },
     loadVolumes: ({ commit }) => {
       axios
-        .get(`data/volumes.json`)
+        .get(`statics/data/volumes.json`)
         .then(res => { commit('VOLUMES_FETCHED', res.data) })
         .catch(err => { throw (err) })
     },
     loadEditions: ({ commit }) => {
       axios
-        .get(`data/editions.json`)
+        .get(`statics/data/editions.json`)
         .then(res => { commit('EDITIONS_FETCHED', res.data) })
         .catch(err => { throw (err) })
     },
     loadChapters: ({ commit }) => {
       axios
-        .get(`data/chapters.json`)
+        .get(`statics/data/chapters.json`)
         .then(res => { commit('CHAPTERS_FETCHED', res.data) })
         .catch(err => { throw (err) })
     },
     loadTeachings: ({ commit }) => {
       axios
-        .get(`data/teachings.json`)
+        .get(`statics/data/teachings.json`)
         .then(res => { commit('TEACHINGS_FETCHED', res.data) })
         .catch(err => { throw (err) })
     }

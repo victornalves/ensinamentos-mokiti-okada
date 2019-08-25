@@ -1,0 +1,1706 @@
+[
+  {
+    "id": 1,
+    "name": "Ciclos cósmicos",
+    "id_chapter": 1,
+    "parent_teaching": ""
+  },
+  {
+    "id": 2,
+    "name": "O Divino Drama",
+    "id_chapter": 1,
+    "parent_teaching": ""
+  },
+  {
+    "id": 3,
+    "name": "A Luz de Deus e a Doutrina",
+    "id_chapter": 1,
+    "parent_teaching": ""
+  },
+  {
+    "id": 4,
+    "name": "O aumento da Luz acelera a purificação",
+    "id_chapter": 2,
+    "parent_teaching": ""
+  },
+  {
+    "id": 5,
+    "name": "O sofrimento: uma forma de purificação",
+    "id_chapter": 2,
+    "parent_teaching": ""
+  },
+  {
+    "id": 6,
+    "name": "A Lei da Concordância Espiritual e a purificação",
+    "id_chapter": 2,
+    "parent_teaching": ""
+  },
+  {
+    "id": 7,
+    "name": "Explicação dos infortúnios e acidentes",
+    "id_chapter": 2,
+    "parent_teaching": ""
+  },
+  {
+    "id": 8,
+    "name": "Quanto maior a missão, maior a purificação",
+    "id_chapter": 2,
+    "parent_teaching": ""
+  },
+  {
+    "id": 9,
+    "name": "As impurezas do solo e das plantas, as inundações, o crime e o período de transição",
+    "id_chapter": 2,
+    "parent_teaching": ""
+  },
+  {
+    "id": 10,
+    "name": "O devotamento na ministração do Johrei",
+    "id_chapter": 3,
+    "parent_teaching": ""
+  },
+  {
+    "id": 11,
+    "name": "A importância da humildade",
+    "id_chapter": 3,
+    "parent_teaching": ""
+  },
+  {
+    "id": 12,
+    "name": "Estar em união com Deus",
+    "id_chapter": 3,
+    "parent_teaching": ""
+  },
+  {
+    "id": 13,
+    "name": "A compreensão e a postura correta",
+    "id_chapter": 3,
+    "parent_teaching": ""
+  },
+  {
+    "id": 14,
+    "name": "A prudência, o saber e as dificuldades insolúveis",
+    "id_chapter": 4,
+    "parent_teaching": ""
+  },
+  {
+    "id": 15,
+    "name": "A alegria, o tempo e a ordem",
+    "id_chapter": 4,
+    "parent_teaching": ""
+  },
+  {
+    "id": 16,
+    "name": "O sabor da fé",
+    "id_chapter": 4,
+    "parent_teaching": ""
+  },
+  {
+    "id": 17,
+    "name": "O bom senso em religião",
+    "id_chapter": 4,
+    "parent_teaching": ""
+  },
+  {
+    "id": 18,
+    "name": "A entrega a Deus e o apego",
+    "id_chapter": 4,
+    "parent_teaching": ""
+  },
+  {
+    "id": 19,
+    "name": "A missão do homem",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 20,
+    "name": "O objetivo da Obra Divina",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 21,
+    "name": "As Leis Divinas e a dedicação",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 22,
+    "name": "Os méritos divinos",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 23,
+    "name": "A atmosfera espiritual",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 24,
+    "name": "O ingresso à Igreja é regido pelo Mundo Espiritual",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 25,
+    "name": "Deixe-se guiar pela Vontade Divina",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 26,
+    "name": "em seu trabalho de difusão",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 27,
+    "name": "Não seja dependente em demasia",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 28,
+    "name": "Entregue-se a Deus",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 29,
+    "name": "Colabore com Deus",
+    "id_chapter": 5,
+    "parent_teaching": ""
+  },
+  {
+    "id": 30,
+    "name": "Daijo, Shojo, Izunome",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 31,
+    "name": "O Bem e o Mal são relativos",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 32,
+    "name": "O conflito entre o Bem e o Mal",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 33,
+    "name": "Não julgueis",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 34,
+    "name": "Sobre o amor",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 35,
+    "name": "A ampla tolerância",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 36,
+    "name": "Amor à humanidade é amor à vida",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 37,
+    "name": "A liberdade em religião",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 38,
+    "name": "Seja um bom ouvinte",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 39,
+    "name": "Ceda para conquistar",
+    "id_chapter": 6,
+    "parent_teaching": ""
+  },
+  {
+    "id": 40,
+    "name": "O que é a Igreja Messiânica Mundial",
+    "id_chapter": 7,
+    "parent_teaching": ""
+  },
+  {
+    "id": 41,
+    "name": "Religião \"Loja de Departamentos\"",
+    "id_chapter": 7,
+    "parent_teaching": ""
+  },
+  {
+    "id": 42,
+    "name": "O Johrei",
+    "id_chapter": 7,
+    "parent_teaching": ""
+  },
+  {
+    "id": 43,
+    "name": "Como tornar-se messiânico",
+    "id_chapter": 7,
+    "parent_teaching": ""
+  },
+  {
+    "id": 44,
+    "name": "Preces, cultos e oferendas",
+    "id_chapter": 7,
+    "parent_teaching": ""
+  },
+  {
+    "id": 45,
+    "name": "O que é a Igreja Messiânica Mundial",
+    "id_chapter": 9,
+    "parent_teaching": ""
+  },
+  {
+    "id": 46,
+    "name": "Doutrina da Igreja Messiânica Mundial",
+    "id_chapter": 9,
+    "parent_teaching": ""
+  },
+  {
+    "id": 47,
+    "name": "Nascimento do novo mundo",
+    "id_chapter": 9,
+    "parent_teaching": ""
+  },
+  {
+    "id": 48,
+    "name": "Mundo primordial",
+    "id_chapter": 9,
+    "parent_teaching": ""
+  },
+  {
+    "id": 49,
+    "name": "O que é a verdadeira salvação",
+    "id_chapter": 10,
+    "parent_teaching": ""
+  },
+  {
+    "id": 50,
+    "name": "A característica peculiar da salvação da Igreja Messiânica",
+    "id_chapter": 10,
+    "parent_teaching": ""
+  },
+  {
+    "id": 51,
+    "name": "Religião Loja de Departamentos",
+    "id_chapter": 10,
+    "parent_teaching": ""
+  },
+  {
+    "id": 52,
+    "name": "Ultrarreligião",
+    "id_chapter": 10,
+    "parent_teaching": ""
+  },
+  {
+    "id": 53,
+    "name": "Religião viva",
+    "id_chapter": 10,
+    "parent_teaching": ""
+  },
+  {
+    "id": 54,
+    "name": "Religião criadora de pessoas felizes",
+    "id_chapter": 10,
+    "parent_teaching": ""
+  },
+  {
+    "id": 55,
+    "name": "Religião que revela Deus",
+    "id_chapter": 10,
+    "parent_teaching": ""
+  },
+  {
+    "id": 56,
+    "name": "Eliminação da tragédia",
+    "id_chapter": 10,
+    "parent_teaching": ""
+  },
+  {
+    "id": 57,
+    "name": "Esclarecimento da Verdade",
+    "id_chapter": 11,
+    "parent_teaching": ""
+  },
+  {
+    "id": 58,
+    "name": "Verdade, Bem e Belo",
+    "id_chapter": 11,
+    "parent_teaching": ""
+  },
+  {
+    "id": 59,
+    "name": "Verdade e pseudoverdade",
+    "id_chapter": 11,
+    "parent_teaching": ""
+  },
+  {
+    "id": 60,
+    "name": "Eu escrevo a Verdade Teoria da harmonia",
+    "id_chapter": 11,
+    "parent_teaching": ""
+  },
+  {
+    "id": 61,
+    "name": "O que é a verdadeira civilização (palestra)",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 62,
+    "name": "Criação da cultura",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 63,
+    "name": "Substituição da velha cultura pela nova cultura",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 64,
+    "name": "A construção do Paraíso e a exclusão do mal",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 65,
+    "name": "O bem e o mal",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 66,
+    "name": "Mundo semicivilizado e semisselvagem",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 67,
+    "name": "Era semicivilizada",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 68,
+    "name": "A luta entre o materialismo e o espiritualismo",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 69,
+    "name": "O materialismo cria o homem mau",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 70,
+    "name": "A ciência cria as superstições",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 71,
+    "name": "A defasagem do estudo",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 72,
+    "name": "A respeito do ateísmo",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 73,
+    "name": "A cultura de su",
+    "id_chapter": 12,
+    "parent_teaching": ""
+  },
+  {
+    "id": 74,
+    "name": "O Juízo Final",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 75,
+    "name": "Concretização da profecia do Reino dos Céus o Paraíso Terrestre",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 76,
+    "name": "JOHREI",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 77,
+    "name": "Transição da noite para o dia",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 78,
+    "name": "Sou um cientista em religião",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 79,
+    "name": "O espírito precede a matéria",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 80,
+    "name": "Medicina espiritual",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 81,
+    "name": "Princípio do Johrei",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 82,
+    "name": "Força absoluta",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 83,
+    "name": "Sermão",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 84,
+    "name": "Johrei e felicidade",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 85,
+    "name": "O Johrei é tratamento científico (1)",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 86,
+    "name": "O Johrei é tratamento científico (2)",
+    "id_chapter": 13,
+    "parent_teaching": ""
+  },
+  {
+    "id": 87,
+    "name": "Sua personalidade",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 88,
+    "name": "Existem divindades",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 89,
+    "name": "O valor do ser humano está no senso de justiça e de retidão",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 90,
+    "name": "Está errado dizer que os honestos saem perdendo",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 91,
+    "name": "Minha natureza",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 92,
+    "name": "Idolatrado como Deus",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 93,
+    "name": "Minha maneira de pensar",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 94,
+    "name": "Sua força de salvação",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 95,
+    "name": "Eu e a Igreja Messiânica Mundial",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 96,
+    "name": "Unidade Deus-homem",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 97,
+    "name": "Minha Luz",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 98,
+    "name": "Quem é o salvador?",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 99,
+    "name": "Herói da paz",
+    "id_chapter": 14,
+    "parent_teaching": ""
+  },
+  {
+    "id": 100,
+    "name": "A respeito da religião",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 101,
+    "name": "Como avaliar a religião",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 102,
+    "name": "Religião e mandamentos",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 103,
+    "name": "Missão da religião",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 104,
+    "name": "Eliminação do medo",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 105,
+    "name": "A verdadeira paz interior",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 106,
+    "name": "Religião progressista",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 107,
+    "name": "A religião e o universalismo",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 108,
+    "name": "A verdadeira religião",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 109,
+    "name": "Religião Daijo",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 110,
+    "name": "A verdadeira religião Daijo",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 111,
+    "name": "A religião precisa ser mundial",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 112,
+    "name": "Tipos de religião",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 113,
+    "name": "Práticas ascéticas",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 114,
+    "name": "Religião antiga e religião atual",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 115,
+    "name": "O que é uma nova religião",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 116,
+    "name": "Novas lojas e lojas renomadas",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 117,
+    "name": "Religião e ramificações",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 118,
+    "name": "Religião paradisíaca e religião infernal",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 119,
+    "name": "Fé",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 120,
+    "name": "Religião e fé",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 121,
+    "name": "Insensibilidade em relação à religião",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 122,
+    "name": "Fé shojo",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 123,
+    "name": "Religião e milagre",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 124,
+    "name": "Graças recebidas nesta vida",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 125,
+    "name": "Milagre e religião",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 126,
+    "name": "Religião é milagre Religiões e milagres",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 127,
+    "name": "Análise do milagre",
+    "id_chapter": 15,
+    "parent_teaching": ""
+  },
+  {
+    "id": 128,
+    "name": "Prefácio do livro Histórias sobre o Mundo Espiritual",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 129,
+    "name": "A natureza e o Mundo Espiritual",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 130,
+    "name": "A força da Natureza",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 131,
+    "name": "Mundo Espiritual",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 132,
+    "name": "O mundo desconhecido",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 133,
+    "name": "A existência do Mundo Espiritual",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 134,
+    "name": "O tempo presente e o Mundo Espiritual",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 135,
+    "name": "Constituição do Mundo Espiritual",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 136,
+    "name": "Mundo Espiritual e Mundo Material",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 137,
+    "name": "Constituição do Mundo Espiritual",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 138,
+    "name": "Atuação do Mal",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 139,
+    "name": "Atuação dos espíritos malignos",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 140,
+    "name": "Derrota dos espíritos malignos",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 141,
+    "name": "Religião e obstáculo",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 142,
+    "name": "Manifestação espiritual",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 143,
+    "name": "Possessão por divindades",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 144,
+    "name": "Manifestação de espíritos de seres vivos",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 145,
+    "name": "Doença e espírito",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 146,
+    "name": "As diversas situações após a morte",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 147,
+    "name": "Doença e espírito",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 148,
+    "name": "Os japoneses e as doenças psíquicas",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 149,
+    "name": "Elos espirituais",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 150,
+    "name": "A respeito dos sonhos",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 151,
+    "name": "Origem das calamidades",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 152,
+    "name": "As três calamidades maiores e as três calamidades menores",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 153,
+    "name": "A tempestade é uma calamidade causada pelo ser humano",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 154,
+    "name": "Considerações espirituais sobre os incêndios",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 155,
+    "name": "Incêndio e Johrei",
+    "id_chapter": 16,
+    "parent_teaching": ""
+  },
+  {
+    "id": 156,
+    "name": "Compreenda a Vontade Divina",
+    "id_chapter": 17,
+    "parent_teaching": ""
+  },
+  {
+    "id": 157,
+    "name": "Camadas do Mundo Espiritual",
+    "id_chapter": 17,
+    "parent_teaching": ""
+  },
+  {
+    "id": 158,
+    "name": "Espíritos protetores",
+    "id_chapter": 17,
+    "parent_teaching": ""
+  },
+  {
+    "id": 159,
+    "name": "Vença o próprio mal",
+    "id_chapter": 17,
+    "parent_teaching": ""
+  },
+  {
+    "id": 160,
+    "name": "Elevação Espiritual",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 161,
+    "name": "Espírito e matéria",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 162,
+    "name": "Renove-se constantemente",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 163,
+    "name": "Escravos das tumbas?",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 164,
+    "name": "Ser amado por Deus",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 165,
+    "name": "O segredo da sorte na vida",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 166,
+    "name": "Inteligência da Percepção Verdadeira",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 167,
+    "name": "Luz da inteligência",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 168,
+    "name": "A expressão \"saber das coisas\"",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 169,
+    "name": "As cinco inteligências",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 170,
+    "name": "Felicidade",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 171,
+    "name": "Felicidade",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 172,
+    "name": "Segredo da felicidade",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 173,
+    "name": "Destino e liberalismo",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 174,
+    "name": "Nós podemos mudar o nosso destino",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 175,
+    "name": "Bom senso",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 176,
+    "name": "Fé Universal",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 177,
+    "name": "Seja Daijo",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 178,
+    "name": "Deus é justo e correto",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 179,
+    "name": "Nossa religião e o princípio do grande caminho",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 180,
+    "name": "Vida em harmonia",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 181,
+    "name": "Fé Messiânica",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 182,
+    "name": "Sol e Lua",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 183,
+    "name": "Equilíbrio e moderação",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 184,
+    "name": "Espírito de izunome",
+    "id_chapter": 18,
+    "parent_teaching": ""
+  },
+  {
+    "id": 185,
+    "name": "Vida e morte",
+    "id_chapter": 19,
+    "parent_teaching": ""
+  },
+  {
+    "id": 186,
+    "name": "O que é a morte?",
+    "id_chapter": 19,
+    "parent_teaching": ""
+  },
+  {
+    "id": 187,
+    "name": "Existem fantasmas?",
+    "id_chapter": 19,
+    "parent_teaching": ""
+  },
+  {
+    "id": 188,
+    "name": "Julgamento no mundo espiritual",
+    "id_chapter": 19,
+    "parent_teaching": ""
+  },
+  {
+    "id": 189,
+    "name": "A reencarnação",
+    "id_chapter": 19,
+    "parent_teaching": ""
+  },
+  {
+    "id": 190,
+    "name": "Verdadeira saúde",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 191,
+    "name": "A verdade sobre a saúde",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 192,
+    "name": "O ser humano é um poço de saúde",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 193,
+    "name": "A verdadeira saúde e a saúde aparente",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 194,
+    "name": "Morte natural e morte antinatural",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 195,
+    "name": "Toxinas",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 196,
+    "name": "Análise das toxinas",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 197,
+    "name": "O tratamento natural",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 198,
+    "name": "Os três tipos de toxinas",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 199,
+    "name": "Toxinas urinárias",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 200,
+    "name": "A causa dos acidentes",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 201,
+    "name": "Processo de purificação",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 202,
+    "name": "Elevação da temperatura corporal",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 203,
+    "name": "O que é a doença",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 204,
+    "name": "A verdadeira causa das doenças",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 205,
+    "name": "O que é a doença? \"O resfriado\"",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 206,
+    "name": "Os três órgãos internos e o Johrei",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 207,
+    "name": "A origem da doença está na alma",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 208,
+    "name": "A causa das doenças, o pecado e as impurezas",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 209,
+    "name": "O que é binetsu",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 210,
+    "name": "A purificação que promove o equilíbrio",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 211,
+    "name": "A doença e as características do ser humano",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 212,
+    "name": "A advertência dos antepassados",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 213,
+    "name": "Nutrição",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 214,
+    "name": "Alimentação e nutrientes",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 215,
+    "name": "A dietética",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 216,
+    "name": "A comédia dos nutrientes",
+    "id_chapter": 20,
+    "parent_teaching": ""
+  },
+  {
+    "id": 217,
+    "name": "Pragmatismo",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 218,
+    "name": "O pragmatismo religioso",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 219,
+    "name": "Fé é confiança",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 220,
+    "name": "Fé é retidão e justiça",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 221,
+    "name": "Fé correta",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 222,
+    "name": "Liberdade na fé",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 223,
+    "name": "A respeito da incorporação espiritual",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 224,
+    "name": "A bebida e a religião",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 225,
+    "name": "Tipos de fé",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 226,
+    "name": "Os pecados e as impurezas e sua relação com a doença",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 227,
+    "name": "Johrei por meio das letras",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 228,
+    "name": "Leiam o mais possível os Escritos Divinos",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 229,
+    "name": "Fisiognomia das casas e sua posição em relação aos pontos cardeais",
+    "id_chapter": 21,
+    "parent_teaching": ""
+  },
+  {
+    "id": 230,
+    "name": "O ser humano depende de seu pensamento [sonen]",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 231,
+    "name": "Mistério do Mundo Espiritual",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 232,
+    "name": "Makoto [Sinceridade]",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 233,
+    "name": "É possível mudar o destino livremente",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 234,
+    "name": "Práticas de humildade",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 235,
+    "name": "Satisfação e insatisfação",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 236,
+    "name": "Liberte-se do ga",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 237,
+    "name": "O ego e o apego",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 238,
+    "name": "A entrega a Deus",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 239,
+    "name": "Sabor da fé",
+    "id_chapter": 22,
+    "parent_teaching": ""
+  },
+  {
+    "id": 240,
+    "name": "Filosofia da intuição",
+    "id_chapter": 23,
+    "parent_teaching": ""
+  },
+  {
+    "id": 241,
+    "name": "Novamente a respeito de Bergson",
+    "id_chapter": 23,
+    "parent_teaching": ""
+  },
+  {
+    "id": 242,
+    "name": "Ter ou não ter makoto [sinceridade]",
+    "id_chapter": 23,
+    "parent_teaching": ""
+  },
+  {
+    "id": 243,
+    "name": "Aura e ondas espirituais",
+    "id_chapter": 23,
+    "parent_teaching": ""
+  },
+  {
+    "id": 244,
+    "name": "Bondade e cortesia",
+    "id_chapter": 23,
+    "parent_teaching": ""
+  },
+  {
+    "id": 245,
+    "name": "Pessoa simpática",
+    "id_chapter": 23,
+    "parent_teaching": ""
+  },
+  {
+    "id": 246,
+    "name": "Teoria sobre os efeitos contrários",
+    "id_chapter": 23,
+    "parent_teaching": ""
+  },
+  {
+    "id": 247,
+    "name": "Não fique irado",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 248,
+    "name": "Vencer a ira",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 249,
+    "name": "Não julgue o próximo",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 250,
+    "name": "Outras formas de vaidade",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 251,
+    "name": "Não julgueis",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 252,
+    "name": "Reputação e emoções",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 253,
+    "name": "Não seja odiado",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 254,
+    "name": "Não transgrida a ordem",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 255,
+    "name": "Ordem",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 256,
+    "name": "Amor benévolo e amor malévolo",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 257,
+    "name": "Pessoas medrosas",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 258,
+    "name": "A irresponsabilidade dos suicidas",
+    "id_chapter": 24,
+    "parent_teaching": ""
+  },
+  {
+    "id": 259,
+    "name": "Aguardar o tempo certo",
+    "id_chapter": 25,
+    "parent_teaching": ""
+  },
+  {
+    "id": 260,
+    "name": "O deus do Tempo",
+    "id_chapter": 25,
+    "parent_teaching": ""
+  },
+  {
+    "id": 261,
+    "name": "A parábola da espada",
+    "id_chapter": 26,
+    "parent_teaching": ""
+  },
+  {
+    "id": 262,
+    "name": "Beco sem saída",
+    "id_chapter": 26,
+    "parent_teaching": ""
+  },
+  {
+    "id": 263,
+    "name": "Dúvida",
+    "id_chapter": 26,
+    "parent_teaching": ""
+  },
+  {
+    "id": 264,
+    "name": "Libertação",
+    "id_chapter": 26,
+    "parent_teaching": ""
+  },
+  {
+    "id": 265,
+    "name": "Instinto e abstinência",
+    "id_chapter": 26,
+    "parent_teaching": ""
+  },
+  {
+    "id": 266,
+    "name": "Abstinência",
+    "id_chapter": 26,
+    "parent_teaching": ""
+  },
+  {
+    "id": 267,
+    "name": "Apreciar o bem",
+    "id_chapter": 26,
+    "parent_teaching": ""
+  },
+  {
+    "id": 268,
+    "name": "Subjetivismo e objetivismo",
+    "id_chapter": 26,
+    "parent_teaching": ""
+  },
+  {
+    "id": 269,
+    "name": "Verdade e mentira",
+    "id_chapter": 27,
+    "parent_teaching": ""
+  },
+  {
+    "id": 270,
+    "name": "A superstição da mentira",
+    "id_chapter": 27,
+    "parent_teaching": ""
+  },
+  {
+    "id": 271,
+    "name": "Ambiciosos sem ambição",
+    "id_chapter": 27,
+    "parent_teaching": ""
+  },
+  {
+    "id": 272,
+    "name": "Como distinguir a pessoa má",
+    "id_chapter": 27,
+    "parent_teaching": ""
+  },
+  {
+    "id": 273,
+    "name": "A causa da pobreza",
+    "id_chapter": 28,
+    "parent_teaching": ""
+  },
+  {
+    "id": 274,
+    "name": "A respeito das dívidas",
+    "id_chapter": 28,
+    "parent_teaching": ""
+  },
+  {
+    "id": 275,
+    "name": "Devemos ou não fazer dívidas?",
+    "id_chapter": 28,
+    "parent_teaching": ""
+  },
+  {
+    "id": 276,
+    "name": "Dinheiro mal ganho, dinheiro mal gasto",
+    "id_chapter": 28,
+    "parent_teaching": ""
+  },
+  {
+    "id": 277,
+    "name": "O pensamento daijo e o pensamento shojo em relação à dedicação",
+    "id_chapter": 29,
+    "parent_teaching": ""
+  },
+  {
+    "id": 278,
+    "name": "A forte vontade de crescer",
+    "id_chapter": 29,
+    "parent_teaching": ""
+  },
+  {
+    "id": 279,
+    "name": "A respeito do espírito da palavra",
+    "id_chapter": 29,
+    "parent_teaching": ""
+  },
+  {
+    "id": 280,
+    "name": "A luta entre o bem e o mal",
+    "id_chapter": 29,
+    "parent_teaching": ""
+  },
+  {
+    "id": 281,
+    "name": "Ceda para conquistar",
+    "id_chapter": 29,
+    "parent_teaching": ""
+  },
+  {
+    "id": 282,
+    "name": "Seja um bom ouvinte",
+    "id_chapter": 29,
+    "parent_teaching": ""
+  },
+  {
+    "id": 283,
+    "name": "A alegria, o tempo e a ordem",
+    "id_chapter": 29,
+    "parent_teaching": ""
+  },
+  {
+    "id": 284,
+    "name": "Utilizar o dinheiro corretamente",
+    "id_chapter": 29,
+    "parent_teaching": ""
+  }
+ ]

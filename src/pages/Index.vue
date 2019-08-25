@@ -1,25 +1,25 @@
 <template>
-  <q-page class="flex flex-center">
-    <div v-for="(book,index) in books" :key="index">
-      <h2>{{book.name}}</h2>
+  <q-page class="flex flex-center column">
 
-      <div v-for="(volume, index) in getVolumesOfBook(book.id)" :key="index">
-        <h3>{{volume.name}}</h3>
+    <h1>Ensinamentos de Mokiti Okada</h1>
+    <p>Um guia sobre onde encontrar os ensinamentos de Meishu-Sama</p>
 
-        <div v-for="(edition, index) in getEditionsOfVolume(volume.id)" :key="index">
-          <h4>{{edition.name}}</h4>
+    <q-input outlined v-model="filtro" label="Filtro" />
 
-          <div v-for="(chapter, index) in getChaptersOfEdition(edition.id)" :key="index">
-            <h5>{{chapter.name}}</h5>
+    <q-list class="q-my-md">
+      <q-item v-for="(teaching, index) in getTeachings()" :key="index">
+        <q-item-section>
+          <q-item-label>{{index+1}} - {{teaching.name}}</q-item-label>
+          <q-item-label caption>
+            <span v-for="(meta, index) in getMetaOfTeaching(teaching.id)" :key="index">
+              <span><strong>{{meta.key}}:</strong></span> {{meta.value}}
+            </span>
+          </q-item-label>
+        </q-item-section>
+      </q-item>
 
-            <div v-for="(teaching, index) in getTeachingsOfChapter(chapter.id)" :key="index">
-              <h5>{{teaching.name}}</h5>
-            </div>
-          </div>
+    </q-list>
 
-        </div>
-      </div>
-    </div>
   </q-page>
 </template>
 
@@ -32,7 +32,7 @@ export default {
   name: "PageIndex",
   data() {
     return {
-
+      filtro: ""
     };
   },
   mounted() {
@@ -43,22 +43,34 @@ export default {
     this.$store.dispatch("database/loadTeachings");
   },
   computed: {
-    ...mapState("database", {books: state => state.books}),
+    ...mapState("database",{ books: state => state.books}),
+    ...mapState("database",{ teachings: state => state.teachings}),
   },
   methods: {
-    getVolumesOfBook(id) {
-      return this.$store.getters['database/getVolumesOfBook'](id);
+    getTeachings(){
+      return this.$store.state.database.teachings.filter(t => t.name.toLowerCase().normalize("NFD").includes(this.filtro.toLowerCase().normalize("NFD")))
     },
-    getEditionsOfVolume(id) {
-      return this.$store.getters['database/getEditionsOfVolume'](id);
-    },
-    getChaptersOfEdition(id) {
-      return this.$store.getters['database/getChaptersOfEdition'](id);
-    },
-    getTeachingsOfChapter(id) {
-      return this.$store.getters['database/getTeachingsOfChapter'](id);
+    getMetaOfTeaching(teaching_id) {
+      let teaching = this.$store.getters['database/getTeachingById'](teaching_id);
+
+      let chapter = this.$store.getters['database/getChapterById'](teaching.id_chapter);
+      let edition = this.$store.getters['database/getEditionById'](chapter.id_edition);
+      let volume  = this.$store.getters['database/getVolumeById'](edition.id_volume);
+      let book    = this.$store.getters['database/getBookById'](volume.id_book);
+
+      return [
+        { key: 'Livro', value: book.name },
+        { key: 'Capítulo', value: chapter.name },
+        { key: 'Volume', value: volume.name },
+        { key: 'Edição', value: edition.name },
+      ]
     },
   }
 };
 </script>
 
+<style scoped>
+  h1 {
+    font-size: 2rem;
+  }
+</style>

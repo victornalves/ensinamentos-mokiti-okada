@@ -20,7 +20,7 @@ function createWindow () {
     useContentSize: true,
     frame: false,
     webPreferences: {
-      nodeIntegration: false
+      nodeIntegration: true
     }
   })
 
