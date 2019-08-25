@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Capítulo 1",
+    "id_edition": 1
+  },
+  {
+    "id": 2,
+    "name": "Capítulo 2",
+    "id_edition": 1
+  },
+  {
+    "id": 3,
+    "name": "Capítulo 3",
+    "id_edition": 1
+  }
+]

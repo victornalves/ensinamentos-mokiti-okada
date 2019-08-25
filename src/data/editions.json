@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Edição 6",
+    "date": "2017",
+    "id_volume": 1
+  },
+  {
+    "id": 2,
+    "name": "Edição 6",
+    "date": "2018",
+    "id_volume": 2
+  },
+  {
+    "id": 3,
+    "name": "Edição 6",
+    "date": "2019",
+    "id_volume": 3
+  },
+  {
+    "id": 4,
+    "name": "Edição 6",
+    "date": "2019",
+    "id_volume": 4
+  }
+]
