@@ -7,7 +7,8 @@ export default {
     volumes: [],
     editions: [],
     chapters: [],
-    teachings: []
+    teachings: [],
+    teachings_view: []
   },
   getters: {
     getBookById: (state) => (id) => {
@@ -56,6 +57,29 @@ export default {
     TEACHINGS_FETCHED: (state, payload) => {
       state.teachings = payload
     },
+    TEACHINGS_VIEW_CREATED: (state, {payload, getters}) => {
+
+      state.teachings_view = state.teachings.map( teaching => {
+
+        let chapter = getters['getChapterById'](teaching.id_chapter);
+        let edition = getters['getEditionById'](chapter.id_edition);
+        let volume  = getters['getVolumeById'](edition.id_volume);
+        let book    = getters['getBookById'](volume.id_book);
+
+        return {
+          name: teaching.name,
+          meta: [
+            { key: 'chapter', value: chapter.name },
+            { key: 'edition', value: edition.name },
+            { key: 'volume', value: volume.name },
+            { key: 'book', value: book.name }
+          ]
+        }
+
+      })
+
+
+    },
   },
   actions: {
     loadBooks: ({ commit }) => {
@@ -82,11 +106,17 @@ export default {
         .then(res => { commit('CHAPTERS_FETCHED', res.data) })
         .catch(err => { throw (err) })
     },
-    loadTeachings: ({ commit }) => {
+    loadTeachings: ({ commit, getters }) => {
       axios
         .get(`statics/data/teachings.json`)
-        .then(res => { commit('TEACHINGS_FETCHED', res.data) })
+        .then(res => {
+          commit('TEACHINGS_FETCHED', res.data);
+          commit('TEACHINGS_VIEW_CREATED', { commit, getters});
+        })
         .catch(err => { throw (err) })
+    },
+    createTeachingsView: ({commit}) => {
+
     }
 
   }
