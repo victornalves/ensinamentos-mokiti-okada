@@ -10,18 +10,35 @@ export default {
     teachings: []
   },
   getters: {
-    getVolumesOfBook: (state) => (id_book) => {
-      return state.volumes.filter(volume => volume.id_book === id_book)
+    getBookById: (state) => (id) => {
+      return state.books.filter(book => book.id === id)[0]
     },
-    getEditionsOfVolume: (state) => (id_volume) => {
-      return state.editions.filter(edition => edition.id_volume === id_volume)
+    getVolumeById: (state) => (id) => {
+      return state.volumes.filter(volume => volume.id === id)[0]
     },
-    getChaptersOfEdition: (state) => (id_edition) => {
-      return state.chapters.filter(chapter => chapter.id_edition === id_edition)
+    getEditionById: (state) => (id) => {
+      return state.editions.filter(edition => edition.id === id)[0]
     },
-    getTeachingsOfChapter: (state) => (id_chapter) => {
-      return state.teachings.filter(teaching => teaching.id_chapter === id_chapter)
+    getChapterById: (state) => (id) => {
+      return state.chapters.filter(chapter => chapter.id === id)[0]
     },
+    getTeachingById: (state) => (id) => {
+      return state.teachings.filter(teaching => teaching.id === id)[0]
+    },
+
+    getVolumesOfBook: (state) => (id) => {
+      return state.volumes.filter(volume => volume.id === id)
+    },
+    getEditionsOfVolume: (state) => (id) => {
+      return state.editions.filter(edition => edition.id === id)
+    },
+    getChaptersOfEdition: (state) => (id) => {
+      return state.chapters.filter(chapter => chapter.id === id)
+    },
+    getTeachingsOfChapter: (state) => (id) => {
+      return state.teachings.filter(teaching => teaching.id === id)
+    },
+
   },
   mutations: {
     BOOOKS_FETCHED: (state, payload) => {
