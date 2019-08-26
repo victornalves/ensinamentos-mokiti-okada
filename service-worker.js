@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.9e6595a8fcb7b3636d7c4db82c5a40f5.js"
+  "precache-manifest.bb44e8efa41a66fed68d44ace2055d26.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ensinamentos"});
