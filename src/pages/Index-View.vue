@@ -59,7 +59,24 @@ export default {
 </script>
 
 <style scoped>
+  .q-page {
+    border: 1rem solid var(--q-color-primary);
+  }
+  .q-list {
+    text-align: center;
+  }
+  @media (min-width: 1024px) {
+    .q-list {
+      text-align: left;
+    }
+  }
   h1 {
     font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  p {
+    padding: 0 1rem;
   }
 </style>

@@ -76,10 +76,10 @@ export default {
         return {
           name: teaching.name,
           meta: [
-            { key: 'chapter', value: chapter.name },
-            { key: 'edition', value: edition.name },
-            { key: 'volume', value: volume.name },
-            { key: 'book', value: book.name }
+            { key: 'Capítulo', value: chapter.name },
+            { key: 'Edição', value: edition.name },
+            { key: 'Volume', value: volume.name },
+            { key: 'Livro', value: book.name }
           ]
         }
 
