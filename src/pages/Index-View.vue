@@ -78,5 +78,7 @@ export default {
 
   p {
     padding: 0 1rem;
+    text-align: center;
   }
+
 </style>
