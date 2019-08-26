@@ -8,7 +8,8 @@ export default {
     editions: [],
     chapters: [],
     teachings: [],
-    teachings_view: []
+    teachings_view: [],
+    loading: false
   },
   getters: {
     getBookById: (state) => (id) => {
@@ -42,7 +43,7 @@ export default {
 
   },
   mutations: {
-    BOOOKS_FETCHED: (state, payload) => {
+    BOOKS_FETCHED: (state, payload) => {
       state.books = payload
     },
     VOLUMES_FETCHED: (state, payload) => {
@@ -56,6 +57,12 @@ export default {
     },
     TEACHINGS_FETCHED: (state, payload) => {
       state.teachings = payload
+    },
+    API_PENDING: (state, payload) => {
+      state.loading = true;
+    },
+    API_COMPLETED: (state, payload) => {
+      state.loading = false;
     },
     TEACHINGS_VIEW_CREATED: (state, {payload, getters}) => {
 
@@ -82,10 +89,43 @@ export default {
     },
   },
   actions: {
+    loadData: ({ commit, getters }) => {
+      commit('API_PENDING');
+      axios
+        .get(`statics/data/books.json`)
+        .then(res => {
+          commit('BOOKS_FETCHED', res.data)
+
+          axios.get(`statics/data/volumes.json`)
+          .then(res => {
+            commit('VOLUMES_FETCHED', res.data)
+
+            axios.get(`statics/data/editions.json`)
+            .then(res => {
+              commit('EDITIONS_FETCHED', res.data)
+
+                axios.get(`statics/data/chapters.json`)
+                .then(res => {
+                  commit('CHAPTERS_FETCHED', res.data)
+
+                    axios.get(`statics/data/teachings.json`)
+                    .then(res => {
+                      commit('TEACHINGS_FETCHED', res.data)
+                      commit('TEACHINGS_VIEW_CREATED', { commit, getters });
+                      commit('API_COMPLETED');
+                    })
+                })
+            })
+
+          })
+        })
+        .catch(err => { throw (err) })
+
+    },
     loadBooks: ({ commit }) => {
       axios
         .get(`statics/data/books.json`)
-        .then(res => { commit('BOOOKS_FETCHED', res.data) })
+        .then(res => { commit('BOOKS_FETCHED', res.data) })
         .catch(err => { throw (err) })
     },
     loadVolumes: ({ commit }) => {

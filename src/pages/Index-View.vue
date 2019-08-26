@@ -19,7 +19,8 @@
         </q-item-section>
       </q-item>
     </q-list>
-    <div class="q-my-md" v-else>Não há ensinamentos com a busca <strong>{{filtro}}</strong></div>
+    <div class="q-my-md" v-else-if="!loading">Não há ensinamentos com a busca <strong>{{filtro}}</strong></div>
+    <div class="q-my-md" v-else>Carregando</div>
 
     <div class="q-my-md text-center"><em>Esse aplicativo foi desenvolvido pela comunidade messiânica.
       <BR/>Contribua em <a href="https://github.com/victornalves/ensinamentos-mokiti-okada" target="_blank">https://github.com/victornalves/ensinamentos-mokiti-okada</a>
@@ -42,11 +43,12 @@ export default {
     };
   },
   beforeMount() {
-    this.$store.dispatch("database/loadBooks");
-    this.$store.dispatch("database/loadVolumes");
-    this.$store.dispatch("database/loadEditions");
-    this.$store.dispatch("database/loadChapters");
-    this.$store.dispatch("database/loadTeachings");
+    this.$store.dispatch("database/loadData");
+  },
+  computed: {
+    loading() {
+      return this.$store.state.database.loading;
+    }
   },
   methods: {
     getTeachings(){
