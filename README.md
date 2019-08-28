@@ -1,5 +1,11 @@
 # Ensinamentos (ensinamentos)
 
+Disponível em: https://victornalves.github.io/ensinamentos-mokiti-okada/
+
+Utiliza https://quasar.dev como framework
+
+Crie issues com ideias e faça PR para evolução!
+
 Ensinamentos de Mokiti Okada
 
 ## Install the dependencies
