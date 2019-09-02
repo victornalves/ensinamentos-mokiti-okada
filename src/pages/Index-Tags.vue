@@ -20,6 +20,7 @@
             <span v-for="(tag, index) in teaching.tags" :key="index">
               {{tag.name}}
             </span>
+            <span @click="promptTag(teaching.id)">Adicionar</span>
           </q-item-label>
         </q-item-section>
       </q-item>
@@ -31,6 +32,23 @@
       <BR/>Contribua em <a href="https://github.com/victornalves/ensinamentos-mokiti-okada" target="_blank">https://github.com/victornalves/ensinamentos-mokiti-okada</a>
       <BR/>Ideias de melhorias ou de outros aplicativos? Envie uma mensagem para <a href="mailto:victor@w16.com.br" target="_blank">victor@w16.com.br</a>
     </em></div>
+
+    <q-dialog v-model="prompt" persistent position="bottom">
+      <q-card>
+        <q-card-section>
+          <div class="text-h6">Nova Tag</div>
+        </q-card-section>
+
+        <q-card-section>
+          <q-input dense v-model="newTag" autofocus @keyup.enter="submitTag" />
+        </q-card-section>
+
+        <q-card-actions align="right" class="text-primary">
+          <q-btn flat label="Cancelar" v-close-popup />
+          <q-btn flat label="Adicionar tag" @click="submitTag" v-close-popup />
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
 
   </q-page>
 </template>
@@ -44,7 +62,10 @@ export default {
   name: "PageIndex",
   data() {
     return {
-      filtro: ""
+      filtro: "",
+      prompt: false,
+      newTag: '',
+      newTagTeachingId: ''
     };
   },
   beforeMount() {
@@ -59,15 +80,23 @@ export default {
     getTeachings(){
       return this.$store.state.database.teachings_view.filter(t => {
           let name = t.name.toLowerCase().normalize("NFD");
-          let tags = t.tags.map(t=>t.name).join().toLowerCase().normalize("NFD");
-
-          // console.log(name)
-          // console.log(tags)
+          let tags = t.tags.map(t=>t.name).join(',').toLowerCase().normalize("NFD");
 
           return  name.includes(this.filtro.toLowerCase().normalize("NFD")) ||
                   tags.includes(this.filtro.toLowerCase().normalize("NFD"))
         }
       )
+    },
+    promptTag(teaching_id) {
+      this.newTagTeachingId = teaching_id;
+
+      console.log('Prompt for ' + this.newTagTeachingId);
+      this.newTag = '';
+      this.prompt = true;
+    },
+    submitTag() {
+      this.prompt = false;
+      console.log(`TODO: Add nova tag '${this.newTag}' para teaching ${this.newTagTeachingId}`)
     }
   }
 };

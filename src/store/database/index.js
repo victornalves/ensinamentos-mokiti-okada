@@ -31,7 +31,7 @@ export default {
       return state.teachings.filter(teaching => teaching.id === id)[0]
     },
     getTagsByTeachingId: (state) => (id) => {
-      return state.teaching_tags.filter(tag => tag.teaching_id === id)
+      return state.teaching_tags.filter(tag => tag.teaching_id === id && tag.status === true)
     },
 
     getVolumesOfBook: (state) => (id) => {
@@ -84,6 +84,7 @@ export default {
         let tags    = getters['getTagsByTeachingId'](teaching.id);
 
         return {
+          id: teaching.id,
           name: teaching.name,
           meta: [
             { key: 'Capítulo', value: chapter.name },
