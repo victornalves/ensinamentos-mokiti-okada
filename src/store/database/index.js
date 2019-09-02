@@ -1,4 +1,6 @@
 import axios from "axios";
+import firebase from 'firebase/app';
+import 'firebase/firestore';
 
 export default {
   namespaced: true,
@@ -9,6 +11,7 @@ export default {
     chapters: [],
     teachings: [],
     teachings_view: [],
+    teaching_tags: [],
     loading: false
   },
   getters: {
@@ -26,6 +29,9 @@ export default {
     },
     getTeachingById: (state) => (id) => {
       return state.teachings.filter(teaching => teaching.id === id)[0]
+    },
+    getTagsByTeachingId: (state) => (id) => {
+      return state.teaching_tags.filter(tag => tag.teaching_id === id)
     },
 
     getVolumesOfBook: (state) => (id) => {
@@ -58,6 +64,9 @@ export default {
     TEACHINGS_FETCHED: (state, payload) => {
       state.teachings = payload
     },
+    TEACHINGS_TAGS_FETCHED: (state, payload) => {
+      state.teaching_tags = payload
+    },
     API_PENDING: (state, payload) => {
       state.loading = true;
     },
@@ -72,6 +81,7 @@ export default {
         let edition = getters['getEditionById'](chapter.id_edition);
         let volume  = getters['getVolumeById'](edition.id_volume);
         let book    = getters['getBookById'](volume.id_book);
+        let tags    = getters['getTagsByTeachingId'](teaching.id);
 
         return {
           name: teaching.name,
@@ -80,7 +90,8 @@ export default {
             { key: 'Edição', value: edition.name },
             { key: 'Volume', value: volume.name },
             { key: 'Livro', value: book.name }
-          ]
+          ],
+          tags: tags
         }
 
       })
@@ -111,8 +122,20 @@ export default {
                     axios.get(`statics/data/teachings.json`)
                     .then(res => {
                       commit('TEACHINGS_FETCHED', res.data)
-                      commit('TEACHINGS_VIEW_CREATED', { commit, getters });
-                      commit('API_COMPLETED');
+
+                      let collection = firebase.firestore().collection('tags')
+                      collection.get()
+                          .then(querySnapshot => {
+                            let arr = [];
+                            querySnapshot.forEach(tag => {
+                              arr.push(tag.data())
+                            })
+                            commit('TEACHINGS_TAGS_FETCHED', arr)
+                            commit('TEACHINGS_VIEW_CREATED', { commit, getters });
+                            commit('API_COMPLETED');
+                          })
+                          .catch(error => console.error(error))
+
                     })
                 })
             })
@@ -155,9 +178,21 @@ export default {
         })
         .catch(err => { throw (err) })
     },
-    createTeachingsView: ({commit}) => {
+    loadTags: ({ commit, getters }) => {
 
-    }
+      let collection = firebase.firestore().collection('tags')
+
+      collection.get()
+          .then(querySnapshot => {
+            let arr = [];
+            querySnapshot.forEach(tag => {
+              arr.push(tag.data())
+            })
+            commit('TEACHINGS_TAGS_FETCHED', arr)
+          })
+          .catch(error => console.error(error))
+
+    },
 
   }
 }
